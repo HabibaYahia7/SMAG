@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(red, white, black);
+	background-repeat: no-repeat;
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+}
+
+
+/*p {
+    line-height: 5;*/
+}
+.container{
+	max-width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.tm-header {
+	background: white;
+}
+
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.tm-nav{
+	float: right;
+}
+
+.tm-logo {
+	float: left;
+	margin: 20px;
+}
+
+.tm-nav ul li {
+	display: inline-block;
+}
+
+.tm-nav ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	line-height: 120px;
+}
+
+.tm-nav ul li a:hover{
+	color: #3e99ff;
+}
+
+.container-block {
+    margin: auto;
+    padding: 5em;
+    width: 80%;
+}
+
+.destination-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.destination {
+    background: #03a9f4;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    margin: 3em;
+    min-height: 200px;
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
+.read-more {
+    color: #02ccba;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.read-more::after {
+    content: '►';
+    position: relative;
+    left: 7px;
+    font-size: 80%;
+    top: -1px;
+}
+
+h2 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #FF0033;
+    color: white;
+    text-decoration: none;
+}
+
+#swimming {
+    background-image: url(../images/swimming.jpg);
+    background-position: 50% 75%;
+    background-size: cover;
+
+}
+
+#squash {
+    background-image: url(../images/squash.jpg);
+    background-position: 50% 75%;
+    background-size: cover;
+}
+
+#taekwondo {
+    background-image: url(../images/taekwondo.jpg);
+    background-position: 50% 75%;
+    background-size: cover;
+}
+
+article {
+	/*margin: 2em;*/
+	float:left;
+	/*background:rgb(255,255,255);*/
+	padding:3%;
+	margin:1%;
+	
+}	
+article header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+article img {
+	height: auto;
+    width: 250px;
+	
+.social-links {
+	
+}
+
+}
+/*	float:left;
+	background:rgb(255,255,255);
+	padding:1%;
+	margin:1%;
+	width:29.3%;
+	height:150px; */				
+
+
+footer{
+
+    border-top: 2px solid #FFFFFF;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    font-size:27px;
+    color: white;
+}
+
+
+	/*background:rgb(255,215,215);
+	text-align:center;
+	height:80px;
+	font-size:27px;
+	padding:4px;
+	margin:10px;*/
